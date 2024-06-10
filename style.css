@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 20px #FF0000;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    padding-bottom: 12px;
+    box-shadow: 4px 7px #444848;
+}
+.todo ul li {
+    list-style: decimal;
+    cursor: pointer;
+}
+.AddBtn{
+    padding: 10px;
+    color: white;
+    background-color: rgba(41, 41, 41, 0.468);
+    border-radius: 10px;
+}
+.AddBtn:hover{
+    opacity: 0.7;
+    filter: invert();
+}
